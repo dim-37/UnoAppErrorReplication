@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.33808.371
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "UnoAppErrorReplication.Shared", "UnoAppErrorReplication\UnoAppErrorReplication.Shared\UnoAppErrorReplication.Shared.shproj", "{6279C845-92F8-4333-AB99-3D213163593C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnoAppErrorReplication.Uwp", "UnoAppErrorReplication\UnoAppErrorReplication.UWP\UnoAppErrorReplication.Uwp.csproj", "{A91044EE-6CDB-4EC0-B98B-83C84E1304F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A91044EE-6CDB-4EC0-B98B-83C84E1304F5}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{A91044EE-6CDB-4EC0-B98B-83C84E1304F5}.Debug|Any CPU.Build.0 = Debug|x64
+		{A91044EE-6CDB-4EC0-B98B-83C84E1304F5}.Debug|Any CPU.Deploy.0 = Debug|x64
+		{A91044EE-6CDB-4EC0-B98B-83C84E1304F5}.Debug|ARM.ActiveCfg = Debug|ARM
+		{A91044EE-6CDB-4EC0-B98B-83C84E1304F5}.Debug|ARM.Build.0 = Debug|ARM
+		{A91044EE-6CDB-4EC0-B98B-83C84E1304F5}.Debug|ARM.Deploy.0 = Debug|ARM
+		{A91044EE-6CDB-4EC0-B98B-83C84E1304F5}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{A91044EE-6CDB-4EC0-B98B-83C84E1304F5}.Debug|ARM64.Build.0 = Debug|ARM64
+		{A91044EE-6CDB-4EC0-B98B-83C84E1304F5}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{A91044EE-6CDB-4EC0-B98B-83C84E1304F5}.Debug|x64.ActiveCfg = Debug|x64
+		{A91044EE-6CDB-4EC0-B98B-83C84E1304F5}.Debug|x64.Build.0 = Debug|x64
+		{A91044EE-6CDB-4EC0-B98B-83C84E1304F5}.Debug|x64.Deploy.0 = Debug|x64
+		{A91044EE-6CDB-4EC0-B98B-83C84E1304F5}.Debug|x86.ActiveCfg = Debug|x86
+		{A91044EE-6CDB-4EC0-B98B-83C84E1304F5}.Debug|x86.Build.0 = Debug|x86
+		{A91044EE-6CDB-4EC0-B98B-83C84E1304F5}.Debug|x86.Deploy.0 = Debug|x86
+		{A91044EE-6CDB-4EC0-B98B-83C84E1304F5}.Release|Any CPU.ActiveCfg = Release|x64
+		{A91044EE-6CDB-4EC0-B98B-83C84E1304F5}.Release|Any CPU.Build.0 = Release|x64
+		{A91044EE-6CDB-4EC0-B98B-83C84E1304F5}.Release|Any CPU.Deploy.0 = Release|x64
+		{A91044EE-6CDB-4EC0-B98B-83C84E1304F5}.Release|ARM.ActiveCfg = Release|ARM
+		{A91044EE-6CDB-4EC0-B98B-83C84E1304F5}.Release|ARM.Build.0 = Release|ARM
+		{A91044EE-6CDB-4EC0-B98B-83C84E1304F5}.Release|ARM.Deploy.0 = Release|ARM
+		{A91044EE-6CDB-4EC0-B98B-83C84E1304F5}.Release|ARM64.ActiveCfg = Release|ARM64
+		{A91044EE-6CDB-4EC0-B98B-83C84E1304F5}.Release|ARM64.Build.0 = Release|ARM64
+		{A91044EE-6CDB-4EC0-B98B-83C84E1304F5}.Release|ARM64.Deploy.0 = Release|ARM64
+		{A91044EE-6CDB-4EC0-B98B-83C84E1304F5}.Release|x64.ActiveCfg = Release|x64
+		{A91044EE-6CDB-4EC0-B98B-83C84E1304F5}.Release|x64.Build.0 = Release|x64
+		{A91044EE-6CDB-4EC0-B98B-83C84E1304F5}.Release|x64.Deploy.0 = Release|x64
+		{A91044EE-6CDB-4EC0-B98B-83C84E1304F5}.Release|x86.ActiveCfg = Release|x86
+		{A91044EE-6CDB-4EC0-B98B-83C84E1304F5}.Release|x86.Build.0 = Release|x86
+		{A91044EE-6CDB-4EC0-B98B-83C84E1304F5}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EC7AE40A-BC6D-43BA-A5C1-D9885B9D37AA}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		UnoAppErrorReplication\UnoAppErrorReplication.Shared\UnoAppErrorReplication.Shared.projitems*{6279c845-92f8-4333-ab99-3d213163593c}*SharedItemsImports = 13
+		UnoAppErrorReplication\UnoAppErrorReplication.Shared\UnoAppErrorReplication.Shared.projitems*{a91044ee-6cdb-4ec0-b98b-83c84e1304f5}*SharedItemsImports = 4
+	EndGlobalSection
+EndGlobal
